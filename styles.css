@@ -1,0 +1,37 @@
+body {
+  color: #2f80ed;
+  font-family: "Inter", Helvetica, Arial, sans-serif;
+}
+
+img {
+  width: 520px;
+  height: 190px;
+  margin: 110px 380px 10px 380px;
+}
+
+.text404 {
+  width: 420px;
+  font-size: 120px;
+  font-weight: normal;
+  margin: 0px 430px 0px 430px;
+}
+
+.title {
+  visibility: hidden;
+  width: 420px;
+  text-align: center;
+  display: block;
+  font-size: 17px;
+  font-weight: normal;
+  margin: 0px 430px 0px 430px;
+}
+
+.text404:hover + .title {
+  visibility: visible;
+}
+
+footer {
+  font-size: 17px;
+  font-weight: normal;
+  margin: 280px 430px 30px 430px;
+}
